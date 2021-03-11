@@ -90,10 +90,30 @@
                 <input type="submit" style="padding: 7px 15px 7px 15px;background-image: linear-gradient(to right,#ff0066,#cc33ff);border-radius: 25px;margin-bottom:15px;color:white" name="submit" value="upload image">
             </form>
         </div>
-        <div class="container-fluid" id="contact" style="background-color:gray;padding-top: 70px;padding-bottom: 70px;">
+        <div class="container-fluid" id="home" style=" background-image: linear-gradient(to right,#ff5050,#ff9900);color:white;padding-top: 70px;padding-bottom: 70px;height:400px;">
+            <h3 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:aqua;font-weight:bold;">
+                your course enrolled certificates
+            </h3>
+        </div>
+        <div class="container-fluid" id="contact" style="background-image:linear-gradient(to right,#99ff33,#6666ff);padding-top: 70px;padding-bottom: 70px;">
             <h2>contact us</h2>
-            <p>
-                Twitter<br>facebook<br>youtube
+            <p> <br>
+                <img src="https://www.vectorlogo.zone/logos/facebook/facebook-official.svg" alt="Share on Facebook" style="height: 32px;">
+                facebook<br><br>
+
+                <img src="https://www.vectorlogo.zone/logos/twitter/twitter-tile.svg" alt="Share on Twitter" style="height: 32px;">
+                Twitter<br><br>
+
+                <img src="https://www.vectorlogo.zone/logos/instagram/instagram-ar21.svg" alt="Share on Twitter" style="height: 52px;">
+
+                <br><br>
+                <img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" alt="Share on Facebook" style="height: 32px;">
+                youtube<br>
+
+                <br>
+                <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" style="height:52px;">
+           
+                <br><br><strong>+919812384756</strong>
             </p>
         </div>
     </div>

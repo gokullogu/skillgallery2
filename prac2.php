@@ -10,6 +10,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
 </head>
 
 <body data-target=".navbar" data-spy="scroll" data-offset="0" style="position: relative;">
@@ -89,29 +92,18 @@
         </div>
 
 
-        <div class="container-fluid" id="aboutus" style="background-color: cornsilk;padding-top: 70px;padding-bottom: 70px;">
-            <h2 style="color:orangered">about us</h2>
+        <div class="container-fluid" id="aboutus" style="background-image:linear-gradient(to right,#ff33cc,#ffccff);padding-top: 70px;padding-bottom: 70px;">
+            <h2 style="color:white">about us</h2>
             <br>
-            <p style="color:dodgerblue">Skill gallery is the website primarily created for easyly storing and retrive your e-certificates</p>
-            <ul>
-                <li style="color:red">
-                    <p style="color:dodgerblue">course completion</p>
-                </li>
-                <li style="color:red">
-                    <p style=" color:dodgerblue">examination passed</p>
-                </li>
-                <li style="color:red">
-                    <p style=" color:dodgerblue">others</p>
-                </li>
-                <li style="color:red">
-                    <p style="color:dodgerblue">You can display your certificates and awards in an website in respective domain that the certificate belongs.
-                        Here you can store you certificates as pdf and you can download it from any device which prevents your e-certificates from deletion of your valuable certificates</p>
-                </li>
-            </ul>
+            <p style="color:white">Skill gallery is the website primarily created for easyly storing and retrive your e-certificates course completions
+                examination passedothers
+                You can display your certificates and awards in an website in respective domain that the certificate belongs.
+                Here you can store you certificates as pdf and you can download it from any device which prevents your e-certificates from deletion of your valuable certificates</p>
+            </p>
         </div>
 
-        <div class="container-fluid" id="gallery" style="background-color: darkgoldenrod;padding-top: 70px;padding-bottom: 70px;">
-            <h2 style="color:mediumturquoise">Gallery</h2>
+        <div class="container-fluid" id="gallery" style="background-image:linear-gradient(to right,#9933ff,#00ffff);padding-top: 70px;padding-bottom: 70px;">
+            <h2 style="color:#fde50b">Gallery</h2>
             <img src="certificate.png" class="mx-auto d-block" width="50%" height="300px">
             <br><br>
             <img src="certificate-24960_1280.png" class="mx-auto d-block" width="40%" height="500px">
@@ -130,10 +122,25 @@
                 repudiandae qui minima sed soluta in pariatur quis reiciendis magni. Ipsum rerum aperiam voluptatibus animi
                 ipsam.</p>-->
 
-        <div class="container-fluid" id="contact" style="background-color:gray;padding-top: 70px;padding-bottom: 70px;">
+        <div class="container-fluid" id="contact" style="background-image:linear-gradient(to right,#99ff33,#6666ff);padding-top: 70px;padding-bottom: 70px;">
             <h2>contact us</h2>
-            <p>
-                Twitter<br>facebook<br>youtube
+            <p> <br>
+                <img src="https://www.vectorlogo.zone/logos/facebook/facebook-official.svg" alt="Share on Facebook" style="height: 32px;">
+                facebook<br><br>
+
+                <img src="https://www.vectorlogo.zone/logos/twitter/twitter-tile.svg" alt="Share on Twitter" style="height: 32px;">
+                Twitter<br><br>
+
+                <img src="https://www.vectorlogo.zone/logos/instagram/instagram-ar21.svg" alt="Share on Twitter" style="height: 52px;">
+
+                <br><br>
+                <img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" alt="Share on Facebook" style="height: 32px;">
+                youtube<br>
+
+                <br>
+                <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" style="height:52px;">
+
+                <br><br><strong>+919812384756</strong>
             </p>
         </div>
     </div>
@@ -144,6 +151,17 @@
             <h6>@ copy rights 2020 </h6>
         </div>
     </div>
+
+    <!--attaching to firebase-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.2.10/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.2.10/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
 </body>
 
 </html>

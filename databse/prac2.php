@@ -28,21 +28,21 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsy">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-linkm" href="prac2.php #home">home</a></li>
-                    <li class="nav-item"><a class="nav-linkm" href="prac2.php #aboutus">about us</a></li>
-                    <li class="nav-item"><a class="nav-linkm" href="prac2.php #gallery">gallery</a></li>
+                    <li class="nav-item"><a class="nav-linkm" href="#home">home</a></li>
+                    <li class="nav-item"><a class="nav-linkm" href="#aboutus">about us</a></li>
+                    <li class="nav-item"><a class="nav-linkm" href="#gallery">gallery</a></li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-linkm dropdown-toggle" data-toggle="dropdown" id="navdropdown">my achievements</a>
                         <div class="dropdown-menu">
                             <a href="certifications.php" class="dropdown-item">certifications</a>
-                            <a href="crackedexams.php" class="dropdown-item">cracked exams</a>
+                            <a href="crakedexams.php" class="dropdown-item">cracked exams</a>
                             <a href="otherach.php" class="dropdown-item">all achievements</a>
                         </div>
                     </li>
                     <li class="nav-item"><a class="nav-linkm" href="#contact">contact</a></li>
                 </ul>
             </div>
-            <button class="btn" style="padding: 10px 15px 10px 15px;background-color:red;border-radius: 25px"><a href="login.php" style="color: white;text-decoration: none;">log in</a></button>
+            <button class="btn" style="padding: 7px 13px 7px 13px;background-color:red;border-radius: 25px"><a href="login.php" style="color: white;text-decoration: none;">log in</a></button>
         </nav>
         <!--<img src="depositphotos_123648814-stock-illustration-icons-education-in-form-of.jpg" height="100%" width="100%">
 
@@ -79,18 +79,45 @@
             </a>
         </div>-->
 
-        <div class="container-fluid" id="home" style=" background-image: linear-gradient(to right,#007BFF,#000000);color:white;padding-top: 70px;padding-bottom: 70px;height:400px;">
-            <h3 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:yellow;font-weight:bold;">
-                upload your other achievements here
+        <div class="container-fluid" id="home" style=" background-image: linear-gradient(to right,#fde50b,#15dcf7f6);color:white;padding-top: 70px;padding-bottom: 70px;height:400px;">
+            <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:deeppink;font-weight:bold;">Welcome ! </h2>
+            <br>
+            <h3 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:deeppink;font-weight:bold;">
+                save your acheivements here . . . !
             </h3>
             <br>
-
-            <form action="processupload.php" method="post" enctype="multipart/form-data">
-                <label for="fileToUpload">select image to upload : </label><br><br>
-                <input class="form-control-file border" type="file" name="fileToUpload" id="fileToUpload"><br>
-                <input type="submit" style="background-image: linear-gradient(to right,#ff0066,#cc33ff);padding: 7px 15px 7px 15px;border-radius: 25px;margin-bottom:15px;color:white" name="submit" value="upload image">
-            </form>
         </div>
+
+
+        <div class="container-fluid" id="aboutus" style="background-image:linear-gradient(to right,#ff33cc,#ffccff);padding-top: 70px;padding-bottom: 70px;">
+            <h2 style="color:white">about us</h2>
+            <br>
+            <p style="color:white">Skill gallery is the website primarily created for easyly storing and retrive your e-certificates course completions
+                examination passedothers
+                You can display your certificates and awards in an website in respective domain that the certificate belongs.
+                        Here you can store you certificates as pdf and you can download it from any device which prevents your e-certificates from deletion of your valuable certificates</p>
+            </p>  
+        </div>
+
+        <div class="container-fluid" id="gallery" style="background-image:linear-gradient(to right,#9933ff,#00ffff);padding-top: 70px;padding-bottom: 70px;">
+            <h2 style="color:#fde50b">Gallery</h2>
+            <img src="certificate.png" class="mx-auto d-block" width="50%" height="300px">
+            <br><br>
+            <img src="certificate-24960_1280.png" class="mx-auto d-block" width="40%" height="500px">
+            <br><br>
+
+            <img src="medals-5526624_1920.png" class="mx-auto d-block" width="30%" height="300px">
+            <br><br>
+
+            <img src="a+.png" class="mx-auto d-block" width="40%" height="500px">
+        </div>
+
+        <!--<div class="container-fluid" id="section42"
+            style="background-color: darksalmon;padding-top: 70px;padding-bottom: 70px;">
+            <h2>This is section 4 submenu 2 of website</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatem, ab recusandae quidem corrupti
+                repudiandae qui minima sed soluta in pariatur quis reiciendis magni. Ipsum rerum aperiam voluptatibus animi
+                ipsam.</p>-->
 
         <div class="container-fluid" id="contact" style="background-image:linear-gradient(to right,#99ff33,#6666ff);padding-top: 70px;padding-bottom: 70px;">
             <h2>contact us</h2>

@@ -16,7 +16,7 @@ if ($conlog->connect_error) {
 }
 if (!empty($_POST["email"]) && !empty($_POST["password"])) {
     //session_start();
-    header("location:prac2.php");
+    header("location:afterlogin.php");
 }
 
 
@@ -71,7 +71,7 @@ if (!empty($_POST["email"]) && !empty($_POST["password"])) {
                     <div class="invalid-feedback">agree to continue</div>
                 </label>
             </div>
-            <p>new user ? <a href="signup.php">click here</a></p>
+            <p>new user ? <a href="signup2.php">click here</a></p>
             <div>
                 <button class="btn btn-success mx-auto d-block" style=" background-image: linear-gradient(to right,#fde50b,#15dcf7f6);
     ">Login</button>

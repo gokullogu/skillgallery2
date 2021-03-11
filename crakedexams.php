@@ -93,10 +93,25 @@
             </form>
         </div>
     </div>
-    <div class="container-fluid" id="contact" style="background-color:gray;padding-top: 70px;padding-bottom: 70px;">
+    <div class="container-fluid" id="contact" style="background-image:linear-gradient(to right,#99ff33,#6666ff);padding-top: 70px;padding-bottom: 70px;">
         <h2>contact us</h2>
-        <p>
-            Twitter<br>facebook<br>youtube
+        <p> <br>
+            <img src="https://www.vectorlogo.zone/logos/facebook/facebook-official.svg" alt="Share on Facebook" style="height: 32px;">
+            facebook<br><br>
+
+            <img src="https://www.vectorlogo.zone/logos/twitter/twitter-tile.svg" alt="Share on Twitter" style="height: 32px;">
+            Twitter<br><br>
+
+            <img src="https://www.vectorlogo.zone/logos/instagram/instagram-ar21.svg" alt="Share on Twitter" style="height: 52px;">
+
+            <br><br>
+            <img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" alt="Share on Facebook" style="height: 32px;">
+            youtube<br>
+
+            <br>
+            <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg" style="height:52px;">
+
+            <br><br><strong>+919812384756</strong>
         </p>
     </div>
     </div>
@@ -107,12 +122,6 @@
             <h6>@ copy rights 2020 </h6>
         </div>
     </div>
-    <script>
-        function uploadcert() {
-            document.getElementById("uploadfile").innerHTML = "saved document";
-            <?php echo "success" ?>
-        }
-    </script>
 </body>
 
 </html>
